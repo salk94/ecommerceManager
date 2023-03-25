@@ -45,4 +45,7 @@ public class Articoli {
     @Column(name = "prezzo_listino", nullable = false)
     private String prezzo_listino;
 
+    @Column(name = "prezzo_listino", nullable = false)
+    private String prova;
+
 }
