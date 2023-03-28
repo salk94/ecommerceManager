@@ -5,10 +5,10 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080/realms/TMSBackend
+          issuer-uri: http://52.90.249.215:8080/realms/TMSBackend
           jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri}/protocol/openid-connect/certs
   datasource:
-    url: jdbc:postgresql://192.168.1.139:5432/ecommerceDB
+    url: jdbc:postgresql://152.90.249.215:5432/ecommerceDB
     username: dom
     password: dom
 
@@ -25,7 +25,7 @@ spring:
 jwt:
   auth:
     converter:
-      resource-id: springboot-keycloak-client
+      resource-id: TMSBackendClient
       principal-attribute: preferred_username
 
 logging:
