@@ -23,7 +23,7 @@ public class ArticoliController {
 
     @GetMapping("/Articoli")
     public List<Articoli> getAllArticoli() {
-        logger.info(articoliRepository.findAll().get(0).toString());
+        //logger.info(articoliRepository.findAll().get(0).toString());
         return articoliRepository.findAll();
     }
     

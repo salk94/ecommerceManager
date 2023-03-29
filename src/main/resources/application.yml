@@ -5,12 +5,12 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://52.90.249.215:8080/realms/TMSBackend
+          issuer-uri: http://3.86.144.106:8080/realms/TMSBackend
           jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri}/protocol/openid-connect/certs
   datasource:
-    url: jdbc:postgresql://ec2-52-90-249-215.compute-1.amazonaws.com:5432/ecommerceDB
+    url: jdbc:postgresql://tecnometaldb.cnkg5py5zecb.us-east-1.rds.amazonaws.com:5432/ecommerceDB
     username: dom
-    password: dom
+    password: 
 
   jpa:
     properties:  
