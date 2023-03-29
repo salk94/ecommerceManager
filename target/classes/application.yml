@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:postgresql://tecnometaldb.cnkg5py5zecb.us-east-1.rds.amazonaws.com:5432/ecommerceDB
     username: dom
-    password: 
+    password: vwTKS6&GY8!wk&9sbpq!9Hv4RhNk73WQk
 
   jpa:
     properties:  
